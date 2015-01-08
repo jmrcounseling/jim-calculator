@@ -26,7 +26,7 @@ operator = gets.chomp
 
  say "Do you have another calculation?"
  answer = gets.chomp
- if answer == "Yes" || answer == "yes"
+ if answer.downcase == "yes" 
    else
  puts "Good-bye for now."
  break
