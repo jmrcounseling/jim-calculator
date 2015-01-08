@@ -5,6 +5,7 @@ loop do
   end
 
   say "What's the first number?"
+  num1 = gets.chomp
   say "What's the second number?"
   num2 = gets.chomp
 
@@ -32,6 +33,7 @@ operator = gets.chomp
  break
  end
 end
+
      
   
   
