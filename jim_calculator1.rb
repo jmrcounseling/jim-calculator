@@ -12,11 +12,11 @@ loop do
 operator = gets.chomp
 
   if operator == "1"
-    result = num1.to_i + num2.to_i
+    result = num1.to_i + num2.to_f
   elsif operator == "2"
-    result = num1.to_i - num2.to_i
+    result = num1.to_i - num2.to_f
   elsif operator == "3"
-    result = num1.to_i * num2.to_i
+    result = num1.to_i * num2.to_f
   else
     result = num1.to_i / num2.to_f
   end
